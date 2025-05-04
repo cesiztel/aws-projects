@@ -1,8 +1,10 @@
-# AWS Solutions Architect Associate Certification Path
+# 1. IAM 100 Users, groups and managed policies.
 
 ## Introduction
 
-This repository contains learning projects which I did during the preparation for the AWS-SAA certification exam. 
+This project has a goal to make an introduction on how AWS IAM (Identity and Access Management) Users and Groups works together and how the managed policies change the permissions assigned to that users and groups.
+
+IAM Users are an identity users for anything requiring long-term AWS access (humans, applications or service accounts). You can assign policies to users, but it is not a efficient way to manage the permissions, because users that should have a similar set of permissions, you would need to add the same policies to that users individually. So better way to manage your users is with groups (IAM Groups). Groups are not identities, are just containers of IAM Users.
 
 ## Table of Contents
 
